@@ -5,8 +5,8 @@ class Header extends Component {
   render() { 
     return (
       <header>
-        <h1>Random Dad Joke Generator!</h1>
-        <h2>Find a random dad joke!</h2>
+        <h1>Dad-a-base</h1>
+        <h2>Your one stop shop for awesome dad jokes!</h2>
 
       </header>
       );

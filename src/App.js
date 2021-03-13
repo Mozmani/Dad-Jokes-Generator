@@ -1,12 +1,11 @@
 import React from 'react';
 import Header from './Header'
 import Page from './Page'
-import Button from './Button'
 import './App.css'
 
 class App extends React.Component {
   state = {
-    joke: ''
+    joke: 'Where does a Dentist go on vacation? Floss Vegas!'
     }
   
   handleClick =  () => {
@@ -34,12 +33,10 @@ class App extends React.Component {
       <>
       <Header />
       <main>
-      <Button
-        click={this.handleClick}
-        state={this.state.joke}
-      />
+      
       <Page
         state={this.state.joke}
+        handleClick={this.handleClick}
       />
       </main>
       </>
